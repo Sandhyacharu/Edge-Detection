@@ -4,29 +4,21 @@
 
 ## Aim:
 To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
-
 ## Software Required:
 Anaconda - Python 3.7
-
 ## Algorithm:
 ### Step1:
 Import all the necessary modules for the program.
-
 ### Step2:
 Load a image using imread() from cv2 module.
-
 ### Step3:
 Convert the image to grayscale.
-
 ### Step4:
 Using Sobel operator from cv2,detect the edges of the image.
-
 ### Step5:
 Using Laplacian operator from cv2,detect the edges of the image.
-
 ### Step6:
 Using Canny operator from cv2,detect the edges of the image.
-
 ## Program:
 ```
 ### Developed By   : N Sandhya Charu
