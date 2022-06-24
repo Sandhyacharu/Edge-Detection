@@ -82,6 +82,18 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ## Output:
 
 ### SOBEL EDGE DETECTOR
