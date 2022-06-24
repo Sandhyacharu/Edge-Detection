@@ -29,7 +29,7 @@ Using Canny operator from cv2,detect the edges of the image.
 import cv2
 import matplotlib.pyplot as plt
 ```
-### Load the image, Convert to grayscale and remove noise
+#### Load the image, Convert to grayscale and remove noise
 ``` Python
 image = cv2.imread('picture.jpg')
 gray_image = cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
@@ -38,7 +38,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 img = cv2.GaussianBlur(gray_image,(3,3),0)
 ```
-### SOBEL EDGE DETECTOR
+#### SOBEL EDGE DETECTOR
 ``` Python
 sobelx = cv2.Sobel(img,cv2.CV_64F,1,0,ksize=5)
 plt.figure(1)
@@ -62,7 +62,7 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 ```
-### LAPLACIAN EDGE DETECTOR
+#### LAPLACIAN EDGE DETECTOR
 ``` Python
 laplacian = cv2.Laplacian(img,cv2.CV_64F)
 plt.figure(1)
@@ -72,7 +72,7 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 ```
-### CANNY EDGE DETECTOR
+#### CANNY EDGE DETECTOR
 ``` Python
 canny_edges = cv2.Canny(img,120,150)
 plt.figure(1)
