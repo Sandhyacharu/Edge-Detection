@@ -82,44 +82,13 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ## Output:
-
 ### SOBEL EDGE DETECTOR
+
 ![image](https://user-images.githubusercontent.com/75235167/168247006-f720848a-9565-4833-a5c3-685aa3120e11.png)
-<br>
+
 ![image](https://user-images.githubusercontent.com/75235167/168247823-048b13b4-ba76-4ddb-b398-8cd64433cc95.png)
-<br>
+
 ![image](https://user-images.githubusercontent.com/75235167/168247118-c4062914-ae48-41a8-ad35-23a569780347.png)
 ### LAPLACIAN EDGE DETECTOR
 ![image](https://user-images.githubusercontent.com/75235167/168247210-44e55f71-c946-4e1f-8067-2aab440dfc30.png)
